@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameTransition : MonoBehaviour
 {
-    private float timer = 5f;
+    [SerializeField]
+    private Animator _anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,6 +26,7 @@ public class GameTransition : MonoBehaviour
 
     IEnumerator Countdown() 
     {
+        _anim.SetTrigger("OpenDoor");
         yield return new WaitForSeconds(3.0f);
         SceneManager.LoadScene(1);
     }
