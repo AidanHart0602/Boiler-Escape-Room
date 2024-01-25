@@ -11491,7 +11491,7 @@ PrefabInstance:
     - target: {fileID: 3921918940088596879, guid: 95a82343fb2a76a47aad1c28e530f643,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6427104058963502222, guid: 95a82343fb2a76a47aad1c28e530f643,
         type: 3}
@@ -21247,28 +21247,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &5337178919033116519
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5337178919199530635}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 53a37400a87347b4dbbd257750b0b864, type: 3}
 --- !u!64 &5337178919037266582
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -22727,30 +22705,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Basement_Corridor_F_Floor_4x4m
       objectReference: {fileID: 0}
-    - target: {fileID: 5733823998146285653, guid: c6adbb72a62905e4eb0b5a8576a37784,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5733823998153712533, guid: c6adbb72a62905e4eb0b5a8576a37784, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5733823998146285653, guid: c6adbb72a62905e4eb0b5a8576a37784,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5337178919033116519}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6adbb72a62905e4eb0b5a8576a37784, type: 3}
 --- !u!4 &5337178919199530634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5733823998145924213, guid: c6adbb72a62905e4eb0b5a8576a37784,
-    type: 3}
-  m_PrefabInstance: {fileID: 5337178919199530633}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5337178919199530635 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5733823998146285653, guid: c6adbb72a62905e4eb0b5a8576a37784,
     type: 3}
   m_PrefabInstance: {fileID: 5337178919199530633}
   m_PrefabAsset: {fileID: 0}
@@ -29077,7 +29039,7 @@ PrefabInstance:
     - target: {fileID: 3482416358470144552, guid: 0a4f15ee00575d74caa46ffc3c2ffb90,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5703656656800023637, guid: 0a4f15ee00575d74caa46ffc3c2ffb90,
         type: 3}
